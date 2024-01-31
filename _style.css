@@ -1,0 +1,14 @@
+button {
+    padding: 15px;
+    background-color: blueviolet;
+    color: aliceblue;
+    cursor: pointer;
+    transition: all;
+     
+}
+
+button:hover {
+    padding: 15px;
+    background-color: rgb(55, 226, 43);
+    color: aliceblue;
+}
