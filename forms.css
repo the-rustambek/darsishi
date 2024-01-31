@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+
+body {
+  background: rgb(7, 178, 32);
+  background: -moz-linear-gradient(
+    284deg,
+    rgba(7, 178, 32, 1) 23%,
+    rgba(237, 255, 0, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    284deg,
+    rgba(7, 178, 32, 1) 23%,
+    rgba(237, 255, 0, 1) 100%
+  );
+  background: linear-gradient(
+    284deg,
+    rgba(7, 178, 32, 1) 23%,
+    rgba(237, 255, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#07b220",endColorstr="#edff00",GradientType=1);
+  font-family: "Varela", sans-serif;
+}
+.form {
+  width: 1140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+.input-username,
+.input-password {
+  width: 600px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 24px;
+}
+::placeholder {
+  color: black;
+}
+.btn{
+    width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 24px;
+  transition: 0.3s;
+}
+.btn:hover{
+    border: 3px solid red;
+    color: red;
+    transform: translateY(20%);
+}
