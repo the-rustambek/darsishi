@@ -19,6 +19,7 @@ body {
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#07b220",endColorstr="#edff00",GradientType=1);
   font-family: "Varela", sans-serif;
+  height: 718px;
 }
 .form {
   width: 1140px;
