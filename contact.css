@@ -1,0 +1,38 @@
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  margin-left: 40%;
+  margin-top: 200px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid grey;
+  width: 320px;
+}
+li img {
+  width: 300px;
+}
+li p {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px;
+}
+button{
+  color: red;
+  padding: 10px 20px;
+}
+
+button:hover{
+  background-color: brown;
+  color: black;
+}
